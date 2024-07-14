@@ -1,12 +1,12 @@
 # Documentation
 Prometheus and Grafana are popular tools used together for effective monitoring and visualization in IT environments. Here are several reasons why you might want to use Prometheus with Grafana:
 
-   ** Powerful Time-Series Data Handling (Prometheus):**
+    Powerful Time-Series Data Handling (Prometheus): 
         Efficient Storage: Prometheus is designed for storing time-series data, which makes it highly efficient for handling large volumes of monitoring data.
         Flexible Query Language (PromQL): Prometheus Query Language (PromQL) allows for complex and flexible queries to extract meaningful insights from the collected data.
         Multi-dimensional Data Model: Prometheus uses a multi-dimensional data model with key/value pairs, enabling detailed and customizable metrics.
 
- **   Visualization and Dashboarding (Grafana):**
+    Visualization and Dashboarding (Grafana):
         Rich Visualization Options: Grafana provides a wide range of visualization options, including graphs, heatmaps, and pie charts, which help in creating insightful dashboards.
         Customizable Dashboards: Grafana allows for the creation of highly customizable and interactive dashboards, making it easier to monitor and analyze metrics in real-time.
         Alerting: Grafana includes built-in alerting features, allowing you to set up alerts based on your monitoring data and receive notifications when certain conditions are met.
