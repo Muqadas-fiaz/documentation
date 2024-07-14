@@ -1,5 +1,41 @@
-# documentation
-Install Prometheus on Ubuntu 20.04¶
+# Documentation
+Prometheus and Grafana are popular tools used together for effective monitoring and visualization in IT environments. Here are several reasons why you might want to use Prometheus with Grafana:
+
+   ** Powerful Time-Series Data Handling (Prometheus):**
+        Efficient Storage: Prometheus is designed for storing time-series data, which makes it highly efficient for handling large volumes of monitoring data.
+        Flexible Query Language (PromQL): Prometheus Query Language (PromQL) allows for complex and flexible queries to extract meaningful insights from the collected data.
+        Multi-dimensional Data Model: Prometheus uses a multi-dimensional data model with key/value pairs, enabling detailed and customizable metrics.
+
+ **   Visualization and Dashboarding (Grafana):**
+        Rich Visualization Options: Grafana provides a wide range of visualization options, including graphs, heatmaps, and pie charts, which help in creating insightful dashboards.
+        Customizable Dashboards: Grafana allows for the creation of highly customizable and interactive dashboards, making it easier to monitor and analyze metrics in real-time.
+        Alerting: Grafana includes built-in alerting features, allowing you to set up alerts based on your monitoring data and receive notifications when certain conditions are met.
+
+    Scalability and Flexibility:
+        Scalable Architecture: Both Prometheus and Grafana are designed to be scalable, allowing you to monitor and visualize data from small setups to large-scale, distributed environments.
+        Integration with Other Tools: Grafana can integrate with various data sources beyond Prometheus, such as Elasticsearch, InfluxDB, and MySQL, providing a unified view of different types of data.
+
+    Open Source and Community Support:
+        Active Community: Both Prometheus and Grafana are open-source projects with active communities, which means regular updates, improvements, and extensive community support.
+        Cost-Effective: Being open-source, these tools are cost-effective, making them a preferred choice for many organizations.
+
+    Ease of Deployment and Use:
+        Deployment: Both tools are relatively easy to deploy and configure, with extensive documentation and community resources available.
+        User-Friendly Interface: Grafana’s user-friendly interface makes it easy for users to create and manage dashboards without needing deep technical expertise.
+
+    Pre-Built Integrations and Exporters:
+        Prometheus Exporters: There are numerous exporters available for Prometheus that allow it to scrape metrics from various sources, such as operating systems, databases, and hardware.
+        Grafana Plugins: Grafana supports a wide range of plugins that extend its functionality, providing additional visualization options and data source integrations.
+
+Using Prometheus with Grafana provides a comprehensive monitoring solution that is powerful, flexible, and user-friendly, helping you to effectively monitor and visualize your IT infrastructure and applications.
+
+
+
+
+
+
+
+**Install Prometheus on Ubuntu 20.04**
 
     First of all, let create a dedicated 
 
